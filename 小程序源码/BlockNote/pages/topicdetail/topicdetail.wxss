@@ -1,0 +1,34 @@
+/* pages/topicdetail/topicdetail.wxss */
+
+.content-input{
+  width: 94%;
+  border:3px solid #4169E1;
+  height: 500rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+  font-size: 35rpx;
+  text-indent:2em;
+}
+/* pages/addNote/addNote.wxss */
+.content-input{
+  width: 94%;
+  border:3px solid #4169E1;
+  height: 500rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+  font-size: 35rpx;
+}
+
+.btnImg {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.btn::after {
+  border: 0; 
+}
+.tianjia{
+  font-size: 20px;
+}

@@ -1,0 +1,40 @@
+<!--pages/addNote/addNote.wxml-->
+<form bindsubmit='submit'>
+<view class='weui-cell weui-cell_input'>
+<image class='btnImg' src='../../images/jibiji.png'></image>
+<text>添加笔记</text>
+</view>
+<view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                   <image class='btnImg' src='../../images/biaoti.png'></image>：
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入标题" name='title'/>
+                </view>
+            </view>
+             <view class="weui-cells__title">
+            <image class='btnImg' src='../../images/jianjie.png'></image>简介：
+           </view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入简介" name='intro'/>
+                </view>
+            </view>
+        </view>
+<view class="weui-cells__title">
+ <image class='btnImg' src='../../images/neirong.png'></image>内容：</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd ">
+                    <textarea class="content-input" placeholder="请输入文本" name='content'/>
+                </view>
+            </view>
+        </view>
+        <view class="weui-btn-area">
+            <button  class='btn'  form-type='submit'>
+            <image class='btnImg' src='../../images/tijiao.png'></image>
+             <view class='tianjia'>提交</view>
+            </button>
+        </view>
+    </form>

@@ -1,0 +1,57 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+#addBtn{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #09BB07;
+  color: white;
+  font-size: 50px;
+  line-height: 80px;
+}
+#addBtn {
+  width: 30%;
+ 
+  margin-top: 20rpx;
+  background-color: 	#FF9224;
+  color: white;
+  border-radius: 98rpx; 
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btnImg {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+#addBtn::after {
+  border: 0; 
+}
+.tianjia{
+  font-size: 20px;
+}

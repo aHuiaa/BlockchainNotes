@@ -1,0 +1,14 @@
+<!--pages/dayList/dayList.wxml-->
+<view class="page">
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">{{date}}</view>
+    <view class="weui-panel__bd">
+      <view class="weui-media-box weui-media-box_text" wx:for="{{noteList}}" wx:key="key" wx:for-item="note">
+      <navigator url="../detail/detail?id={{note[0]}}&date={{date}}">
+        <view class="weui-media-box__title weui-media-box__title_in-text">{{note[1]}}</view>
+        <view class="weui-media-box__desc">{{note[2]}}</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

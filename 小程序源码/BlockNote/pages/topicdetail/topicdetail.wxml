@@ -1,0 +1,30 @@
+<!--pages/topicdetail/topicdetail.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">
+        <image class='btnImg' src='../../images/biji1.png'></image>
+        笔记</view>
+    </view>
+    <view class="page__bd" >
+        <view class="weui-article">
+       <image class='btnImg' src='../../images/biaoti.png'></image>：
+            <view class="weui-article__h1">{{topic.title}}</view>
+
+             <view class="weui-cells__title">
+             <image class='btnImg' src='../../images/jianjie.png'></image>简介：
+             </view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd"> 
+                <image class='btnImg' src='../../images/neirong.png'></image>
+                {{topic.intro}}</view>
+            </view>
+        </view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p"><textarea class="content-input" placeholder="{{topic.text}}" name='' disabled='disabled' /></view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

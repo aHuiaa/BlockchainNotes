@@ -1,0 +1,30 @@
+<view class="page">
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">
+    <image class='btnImg' src='../../images/shijian.png'></image>
+    {{date}}</view>
+    <view class="weui-panel__bd" wx:for="{{noteList}}" wx:key="key" wx:for-item="note">
+      <view class="weui-media-box weui-media-box_text" >
+        <view class="weui-media-box__title weui-media-box__title_in-text">
+        <image class='btnImg' src='../../images/mul.png'></image>
+        {{note[1]}}</view>
+        <view class="weui-media-box__desc">{{note[2]}}</view>
+      </view>
+    </view>
+    <view class="weui-panel__ft">
+    <navigator url="../dayList/dayList?date={{date}}">
+      <view class="weui-cell weui-cell_access weui-cell_link">
+        <view class="weui-cell__bd">查看更多</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </view>
+      </navigator>
+    </view>
+  </view>
+
+ <navigator url="../addNote/addNote">
+  <button id='addBtn'>
+    <image class='btnImg' src='../../images/tianjia.png'></image>
+    <view class='tianjia'>添加</view>
+    </button>
+  </navigator>
+</view>

@@ -1,0 +1,32 @@
+/* pages/addNote/addNote.wxss */
+.content-input{
+  width: 94%;
+  border:3px solid #4169E1;
+  height: 500rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 10rpx;
+  font-size: 35rpx;
+}
+.btn {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: #46A3FF;
+  color: white;
+  border-radius: 98rpx; 
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btnImg {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.btn::after {
+  border: 0; 
+}
+.tianjia{
+  font-size: 20px;
+}

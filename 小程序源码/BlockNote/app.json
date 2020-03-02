@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addNote/addNote",
+    "pages/dayList/dayList",
+    "pages/detail/detail",
+    "pages/shequ/shequ",
+    "pages/utils/util.js",
+    "pages/addtopic/addtopic",
+    "pages/topicdetail/topicdetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#33CCFF",
+    "navigationBarTitleText": "链上云笔记",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+   
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#f10b2e",
+    
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人模块",
+        "iconPath": "./images/biji.png",
+        "selectedIconPath": "./images/biji.png"
+      },
+      {
+        "pagePath": "pages/shequ/shequ",
+        "text": "社区模块",
+        "iconPath": "./images/shequ.png",
+        "selectedIconPath": "./images/shequ.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
